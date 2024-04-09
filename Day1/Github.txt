@@ -1,0 +1,51 @@
+Git
+
+coolate then and there
+who did the change and what changes has been done
+
+create the local repository - git init
+
+connect to the github repo - git remote add origin < you repo >
+
+check the remote link -git remote -v
+
+itrate 
+
+stage the files > git add day1/github.txt
+To stage all the files > git add -A
+
+commit them locally > git commit -m "commit message"
+the commit message should me meaningful
+
+push to github - git push origin master (in default it will be main branch)
+
+
+check the status > git status 
+
+
+
+
+if the files the repostory by anybody else
+our push does not push
+shows error message ( example create a readme file in the github website manually then try pushing it)
+
+to do it correctly
+we want to fetch the data buy pull command
+
+pull command > git pull origin main
+
+
+
+conflicts 
+	same file
+	diff files
+Diff Files
+	pull
+	push
+
+same file
+	pull 
+	resolve 
+	stage 
+	commit 
+	push
