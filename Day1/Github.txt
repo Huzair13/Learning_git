@@ -49,3 +49,6 @@ same file
 	stage 
 	commit 
 	push
+
+
+....
